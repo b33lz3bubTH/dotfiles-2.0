@@ -37,7 +37,7 @@ def workspaces():
         separator(),
         widget.GroupBox(
             **base(fg='light'),
-            font='UbuntuMono Nerd Font',
+            font='azukifontB',
             fontsize=17,
             margin_y=3,
             margin_x=0,
@@ -57,7 +57,7 @@ def workspaces():
             disable_drag=True
         ),
         separator(),
-        widget.WindowName(**base(fg='focus'), fontsize=12, padding=5, font="azukifontB"),
+        widget.WindowName(**base(fg='focus'), fontsize=12, padding=5, font="azukifontB Bold"),
         separator(),
     ]
 
