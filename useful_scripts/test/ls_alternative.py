@@ -39,7 +39,7 @@ def main(path=""):
      for file in all_files_in_current_dir:
         # print(file, end="\t")
         if(os.path.isdir("{}/{}".format(path, file))):
-            print(bcolors.OKCYAN + " {}".format(file), end="\t" + bcolors.ENDC)
+            print(bcolors.OKCYAN + " {}".format(file), end="\t\t" + bcolors.ENDC)
         else:
             if(file.split(".")[-1] in file_types): 
                 print("{} {}".format(file_types[file.split(".")[-1]], file), end="\t") 

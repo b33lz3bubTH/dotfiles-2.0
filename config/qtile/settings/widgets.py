@@ -37,7 +37,7 @@ def workspaces():
         separator(),
         widget.GroupBox(
             **base(fg='light'),
-            font='azukifontB',
+            font=(colors["font"][0] if "font" in colors else "UbuntuMono Nerd Font"),
             fontsize=17,
             margin_y=3,
             margin_x=0,
@@ -57,7 +57,7 @@ def workspaces():
             disable_drag=True
         ),
         separator(),
-        widget.WindowName(**base(fg='focus'), fontsize=12, padding=5, font="azukifontB Bold"),
+        widget.WindowName(**base(fg='focus'), fontsize=12, padding=5, font=(colors["font"][1] if "font" in colors else "UbuntuMono Nerd Font")),
         separator(),
     ]
 
@@ -79,26 +79,26 @@ primary_widgets = [
         display_format='{updates}',
         update_interval=1800,
         custom_command='checkupdates',
-        font="azukifontB"
+        font=(colors["font"][1] if "font" in colors else "UbuntuMono Nerd Font")
     ),
 
     powerline('color3', 'color4'),
 
     icon(bg="color3", text='﨏 '),  # Icon: nf-fa-feed
     
-    widget.CPU(**base(bg='color3'),padding=5, font="azukifontB Bold"),
+    widget.CPU(**base(bg='color3'),padding=5, font=(colors["font"][1] if "font" in colors else "UbuntuMono Nerd Font")),
 
     powerline('color2', 'color3'),
 
     widget.CurrentLayoutIcon(**base(bg='color2'), scale=0.65),
 
-    widget.CurrentLayout(**base(bg='color2'), padding=5, font="azukifontB Bold"),
+    widget.CurrentLayout(**base(bg='color2'), padding=5, font=(colors["font"][1] if "font" in colors else "UbuntuMono Nerd Font")),
 
     powerline('color1', 'color2'),
 
     icon(bg="color1", fontsize=17, text=' '), # Icon: nf-mdi-calendar_clock
 
-    widget.Clock(**base(bg='color1'), format='%d/%m/%Y - %H:%M ', font="azukifontB Bold"),
+    widget.Clock(**base(bg='color1'), format='%d/%m/%Y - %H:%M ', font=(colors["font"][1] if "font" in colors else "UbuntuMono Nerd Font")),
 
     powerline('dark', 'color1'),
 
