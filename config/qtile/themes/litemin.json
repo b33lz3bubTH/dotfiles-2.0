@@ -16,8 +16,8 @@
         "#1f1d29"
     ],
     "focus": [
-        "#2c3e50",
-        "#2c3e50"
+        "#250E07",
+        "#250E07"
     ],
     "active": [
         "#e74c3c",
@@ -28,22 +28,22 @@
         "#4c566a"
     ],
     "urgent": [
-        "#f2e4e8",
-        "#f2e4e8"
+        "#D4A520",
+        "#D4A520"
     ],
-    "color1": [
+    "color4": [
         "#FDEDEC",
         "#FDEDEC"
     ],
-    "color2": [
+    "color3": [
         "#F5B7B1",
         "#F5B7B1"
     ],
-    "color3": [
+    "color2": [
         "#F1948A",
         "#F1948A"
     ],
-    "color4": [
+    "color1": [
         "#fd79a8",
         "#fd79a8"
     ]
