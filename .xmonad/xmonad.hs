@@ -79,7 +79,7 @@ import XMonad.Util.Run (runProcessWithInput, safeSpawn, spawnPipe)
 import XMonad.Util.SpawnOnce
 
 myFont :: String
-myFont = "xft:Cascadia Code:regular:size=9:antialias=true:hinting=true"
+myFont = "xft:UbuntuMono Nerd Font:regular:size=9:antialias=true:hinting=true"
 
 myEmojiFont :: String
 myEmojiFont = "xft:JoyPixels:regular:size=9:antialias=true:hinting=true"
@@ -499,7 +499,7 @@ myTabTheme = def { fontName            = myFont
 -- Theme for showWName which prints current workspace when you change workspaces.
 myShowWNameTheme :: SWNConfig
 myShowWNameTheme = def
-    { swn_font              = "xft:Cascadia Code:bold:size=60"
+    { swn_font              = "xft:UbuntuMono Nerd Font:bold:size=60"
     , swn_fade              = 1.0
     , swn_bgcolor           = "#1c1f24"
     , swn_color             = "#ffffff"
